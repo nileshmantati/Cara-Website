@@ -1,0 +1,12 @@
+.shop_header {
+    background-image: url('../assests/b1.2f6d177f83c33b694c55.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f1f3fb;
+    font-family: "League Spartan", sans-serif;
+}
+
+.shop_header span {
+    color: #12867E !important;
+}

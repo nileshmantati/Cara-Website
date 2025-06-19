@@ -1,0 +1,29 @@
+.newsletter-section {
+    background-color: #04294b;
+    background-image: url('../assests//b14.b3fa0d36c31c33d909c6.png');
+    background-size: cover;
+    background-position: 20% 30%;
+    padding: 40px 0;
+    font-family: "League Spartan", sans-serif;
+}
+
+.newsletter-section .form-control {
+    border: none;
+    border-radius: 0;
+}
+
+.newsletter-section .btn {
+    border-radius: 0;
+    background-color: #00796b;
+    border: none;
+    color: white;
+}
+
+.newsletter-section .btn:hover {
+    background-color: #00695c;
+}
+
+.newsletter-section p {
+    color: gray;
+    font-size: 1.1rem;
+}

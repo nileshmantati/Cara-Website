@@ -1,0 +1,41 @@
+.blog_header {
+    background-image: url('../assests/b19.d4722441982128961491.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f1f3fb;
+    font-family: "League Spartan", sans-serif;
+}
+
+.shop_header span {
+    color: #12867E !important;
+}
+
+.date-overlay {
+    position: absolute;
+    top: -4.5rem;
+    left: 2.8rem;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(188, 188, 188);
+    z-index: -1;
+    font-family: "League Spartan", sans-serif;
+}
+
+.blog_section h4 {
+    font-family: "League Spartan", sans-serif;
+}
+
+.blog_section p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+}
+
+.blog_section button {
+    font-family: "League Spartan", sans-serif;
+    text-decoration: none;
+}
+
+.blog_section button:hover {
+    color: #12867E !important;
+}

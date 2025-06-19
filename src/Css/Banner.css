@@ -1,0 +1,32 @@
+.banner {
+    background-color: #0b0b24;
+    background-image: url('../assests//banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.promo-img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.1);
+}
+
+.banner {
+    font-family: "League Spartan", sans-serif;
+}
+
+.banner h2 span {
+    color: red;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.banner button {
+    color: black;
+    background-color: #ffffff;
+}
+
+.banner button:hover {
+    background-color: #12867E;
+}

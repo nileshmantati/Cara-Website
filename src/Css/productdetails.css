@@ -1,0 +1,16 @@
+.product_detail {
+    font-family: "League Spartan", sans-serif;
+}
+
+.product_detail h2 {
+    font-family: "League Spartan", sans-serif;
+}
+
+.product_detail button {
+    color: #fff;
+    background-color: #088178;
+}
+
+.product_detail button:hover {
+    border: 1px solid #088178;
+}

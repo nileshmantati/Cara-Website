@@ -1,0 +1,45 @@
+.about_header {
+    background-image: url('../assests/banner.d27d94d3b18765a0d795.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f1f3fb;
+    font-family: "League Spartan", sans-serif;
+}
+
+.contact_section {
+    font-family: "League Spartan", sans-serif;
+}
+
+.contact_section h2 {
+    font-family: "League Spartan", sans-serif;
+}
+
+.contact_section p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+}
+
+.contact_section span {
+    border-bottom: 1px dotted black;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+}
+
+.contactform_section h6 {
+    font-family: "League Spartan", sans-serif;
+}
+
+.contactform_section button {
+    color: #ffffff;
+    background-color: #12867E;
+    border: none;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+}
+
+.contactform_section button:hover {
+    color: black;
+    background-color: transparent;
+    outline: 1px solid #12867E;
+}

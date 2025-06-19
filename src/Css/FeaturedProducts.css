@@ -1,0 +1,26 @@
+.feature_section {
+    font-family: "League Spartan", sans-serif;
+}
+
+.product-card {
+    position: relative;
+    font-family: "League Spartan", sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    background-color: #F0F0F0;
+}
+
+.product-card button {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8F6EA !important;
+}

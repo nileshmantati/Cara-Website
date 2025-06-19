@@ -1,0 +1,49 @@
+.footer {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: "League Spartan", sans-serif;
+}
+
+.footer-logo {
+    max-width: 100px;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.footer ul li:hover {
+    color: #00796b;
+}
+
+.footer h6 {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.footer strong {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.footer p {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.footer_links h6 {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.footer_links img {
+    border: 1px solid #12867E;
+    border-radius: 5px;
+}
