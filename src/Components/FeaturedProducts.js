@@ -64,3 +64,12 @@ const FeaturedProducts = () => {
 };
 
 export default FeaturedProducts;
+// let url;
+// if (category == 'category') {
+//     url = 'https://api.escuelajs.co/api/v1/products/' + id;
+// } else {
+//     url = 'https://dummyjson.com/products/' + id;
+// }
+// console.log(url);
+// `https://api.escuelajs.co/api/v1/products/${id}`
+// `https://dummyjson.com/products/${id}`

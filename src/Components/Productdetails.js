@@ -18,6 +18,7 @@ const Productdetails = () => {
         setLoading(true);
         axios.get(`https://dummyjson.com/products/${id}`)
             .then((response) => {
+                console.log(response.data);
                 setProduct(response.data);
             })
             .catch((error) => {

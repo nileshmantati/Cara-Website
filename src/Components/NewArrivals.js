@@ -10,9 +10,9 @@ const NewArrivals = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
         // setLoading(true);
-        axios.get(`https://api.escuelajs.co/api/v1/products`)
+        axios.get(`https://dummyjson.com/products/category/mens-shirts`)
             .then((response) => {
-                setProducts(response.data.slice(0, 24));
+                setProducts(response.data.products.slice(1, 24));
             })
             .catch((error) => {
                 console.error(error);
@@ -31,10 +31,10 @@ const NewArrivals = () => {
                         <Col lg={3} md={4} sm={6} xs={12} key={idx}>
                             <Card className="product-card h-100 border-1 shadow-sm rounded-4 p-2 ">
                                 <Link
-                                    to={`/product/${item.id}`}
+                                    to={`/product/category/${item.id}`}
                                     style={{ textDecoration: "none", color: "inherit" }}
                                 >
-                                    <Card.Img variant="top" src={item.images} className="p-3 rounded-4" />
+                                    <Card.Img variant="top" src={item.thumbnail} className="p-3 rounded-4" />
                                 </Link>
                                 <Card.Body className="text-start">
                                     <p className="text-muted mb-1 fw-semibold">{item.brand}</p>

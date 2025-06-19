@@ -20,6 +20,7 @@ function App() {
         <Route path="/about" element={<Aboutuspage />} />
         <Route path="/contact" element={<Contactpage />} />
         <Route path="/product/:id" element={<Productdetails />} />
+        {/* <Route path="/product/:category/:id" element={<Productdetails />} /> */}
       </Routes>
       {/* </Router> */}
     </div>
