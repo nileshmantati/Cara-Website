@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cara-Website/static/css/main.110dc122.css",
-    "main.js": "/Cara-Website/static/js/main.d692717f.js",
+    "main.js": "/Cara-Website/static/js/main.95447761.js",
     "static/js/453.d362fc7d.chunk.js": "/Cara-Website/static/js/453.d362fc7d.chunk.js",
     "static/media/hero-image.png": "/Cara-Website/static/media/hero-image.d02d6d2baf046ba16e25.png",
     "static/media/banner.png": "/Cara-Website/static/media/banner.d27d94d3b18765a0d795.d27d94d3b18765a0d795.png",
@@ -25,11 +25,11 @@
     "static/media/pay.png": "/Cara-Website/static/media/pay.47ad3e696f50516da1b3.47ad3e696f50516da1b3.png",
     "index.html": "/Cara-Website/index.html",
     "main.110dc122.css.map": "/Cara-Website/static/css/main.110dc122.css.map",
-    "main.d692717f.js.map": "/Cara-Website/static/js/main.d692717f.js.map",
+    "main.95447761.js.map": "/Cara-Website/static/js/main.95447761.js.map",
     "453.d362fc7d.chunk.js.map": "/Cara-Website/static/js/453.d362fc7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.110dc122.css",
-    "static/js/main.d692717f.js"
+    "static/js/main.95447761.js"
   ]
 }
