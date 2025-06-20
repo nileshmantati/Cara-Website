@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from './Header'
-import FeaturedProducts from './FeaturedProducts';
-import NewArrivals from './NewArrivals';
+// import FeaturedProducts from './FeaturedProducts';
+// import NewArrivals from './NewArrivals';
 import NewsletterSignup from './NewsletterSignup';
 import Footer from './Footer';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../Css/shopheader.css';
+import ShopProducts from './ShopProducts';
 
 function Shoppage() {
     return (
@@ -23,8 +24,9 @@ function Shoppage() {
                     </Row>
                 </Container>
             </div>
-            <FeaturedProducts />
-            <NewArrivals />
+            {/* <NewArrivals /> */}
+            {/* <FeaturedProducts /> */}
+            <ShopProducts />
             <NewsletterSignup />
             <Footer />
         </div>

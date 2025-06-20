@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { BsCart3 } from 'react-icons/bs';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +10,7 @@ const FeaturedProducts = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
         // setLoading(true);
-        axios.get(`https://dummyjson.com/products/category/mens-shirts?limit=4`)
+        axios.get(`https://dummyjson.com/products`)
             .then((response) => {
                 setProducts(response.data.products);
             })

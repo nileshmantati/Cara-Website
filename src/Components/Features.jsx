@@ -7,7 +7,6 @@ import f4 from '../assests/f4.ad9a7e8f300f1b06e476.png';
 import f5 from '../assests/f5.7390d944821d42b5d0c4.png';
 import f6 from '../assests/f6.411f54a7c986bd31bc8e.png';
 
-
 function Features() {
     const services = [
         {

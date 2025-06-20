@@ -14,9 +14,9 @@ function Homepage() {
             <Header />
             <Herosection />
             <Features />
-            <FeaturedProducts />
-            <Banner />
             <NewArrivals />
+            <Banner />
+            <FeaturedProducts />
             <NewsletterSignup />
             <Footer />
         </div>
