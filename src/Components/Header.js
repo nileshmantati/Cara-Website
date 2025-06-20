@@ -22,7 +22,7 @@ function Header() {
                         <NavLink to="/blog" className="fw-medium">Blog</NavLink>
                         <NavLink to="/about" className="fw-medium">About</NavLink>
                         <NavLink to="/contact" className="fw-medium">Contact Us</NavLink>
-                        <NavLink to="/login" className="fw-medium"><i className="bi bi-person-fill me-2"></i>Sign up / Login</NavLink>
+                        <NavLink to="/signup" className="fw-medium"><i className="bi bi-person-fill me-2"></i>Sign up / Login</NavLink>
                         {/* <Nav.Link href="#"><i className="bi bi-person"></i> Sign up / Login</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>

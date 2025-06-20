@@ -1,0 +1,48 @@
+.signup_section {
+    background-color: #E3E6F3;
+}
+
+.signup_box p {
+    font-family: "League Spartan", sans-serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #12867E;
+}
+
+.signup_box h5 {
+    font-family: "League Spartan", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup_box h5::before,
+.signup_box h5::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: gray;
+    margin: 0 10px;
+}
+
+.signup_box input {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    background-color: #F3F4F6;
+}
+
+.signup_box button {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+    background-color: #6366F1 !important;
+    transition: all ease-in .3s;
+}
+
+.signup_box button:hover {
+    background-color: rgb(61, 50, 181) !important;
+}
+
+.login_link_box {
+    font-family: "League Spartan", sans-serif;
+}
