@@ -15,7 +15,7 @@ function Herosection() {
                                 <span className="text-primary">On all products</span>
                             </h1>
                             <p className="text-secondary fs-5 fw-light mb-3">Save more with coupons & up to 70% off!</p>
-                            <Button className="shop-now-btn">Shop Now</Button>
+                            <Button className="shop-now-btn" href='/shop'>Shop Now</Button>
                         </Col>
                     </Row>
                 </Container>

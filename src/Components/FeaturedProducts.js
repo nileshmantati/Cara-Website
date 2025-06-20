@@ -10,9 +10,9 @@ const FeaturedProducts = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
         // setLoading(true);
-        axios.get(`https://dummyjson.com/products/category/mens-shirts`)
+        axios.get(`https://dummyjson.com/products/category/mens-shirts?limit=4`)
             .then((response) => {
-                setProducts(response.data.products.slice(1, 5));
+                setProducts(response.data.products);
             })
             .catch((error) => {
                 console.error(error);
@@ -31,7 +31,7 @@ const FeaturedProducts = () => {
                         <Col lg={3} md={4} sm={6} xs={12} key={idx}>
                             <Card className="product-card h-100 border-1 shadow-sm rounded-4 p-2 ">
                                 <Link
-                                    to={`/product/${item.id}`}
+                                    to={`/products/${item.id}`}
                                     style={{ textDecoration: "none", color: "inherit" }}
                                 >
                                     <Card.Img variant="top" src={item.thumbnail} className="p-3 rounded-4" />
@@ -39,7 +39,7 @@ const FeaturedProducts = () => {
                                 <Card.Body className="text-start">
                                     <p className="text-muted mb-1 fw-semibold">{item.brand}</p>
                                     <Link
-                                        to={`/Productdetails/${item.id}`}
+                                        to={`/products/${item.id}`}
                                         style={{ textDecoration: "none", color: "inherit" }}
                                     >
                                         <h5>{item.title}</h5>

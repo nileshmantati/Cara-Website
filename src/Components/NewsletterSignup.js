@@ -20,6 +20,7 @@ const NewsletterSignup = () => {
                                 type="email"
                                 placeholder="Your Email Address"
                                 className="rounded-start px-3 py-md-3"
+                                required
                             />
                             <Button variant="teal" className="rounded-end px-4 py-md-3 text-nowrap">
                                 Sign Up
