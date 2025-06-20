@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Cara-Website/static/css/main.110dc122.css",
+    "main.js": "/Cara-Website/static/js/main.d692717f.js",
+    "static/js/453.d362fc7d.chunk.js": "/Cara-Website/static/js/453.d362fc7d.chunk.js",
+    "static/media/hero-image.png": "/Cara-Website/static/media/hero-image.d02d6d2baf046ba16e25.png",
+    "static/media/banner.png": "/Cara-Website/static/media/banner.d27d94d3b18765a0d795.d27d94d3b18765a0d795.png",
+    "static/media/b19.jpg": "/Cara-Website/static/media/b19.d4722441982128961491.d4722441982128961491.jpg",
+    "static/media/a6.jpg": "/Cara-Website/static/media/a6.d7b04c72a1826924a32f.d7b04c72a1826924a32f.jpg",
+    "static/media/bootstrap-icons.woff?": "/Cara-Website/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Cara-Website/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/b1.jpg": "/Cara-Website/static/media/b1.2f6d177f83c33b694c55.2f6d177f83c33b694c55.jpg",
+    "static/media/blogImg2.jpg": "/Cara-Website/static/media/blogImg2.c939fc5a0f662cf378a7.jpg",
+    "static/media/b14.png": "/Cara-Website/static/media/b14.b3fa0d36c31c33d909c6.b3fa0d36c31c33d909c6.png",
+    "static/media/blogImg3.jpg": "/Cara-Website/static/media/blogImg3.4ee6f69fc48a3b9fd327.jpg",
+    "static/media/f2.png": "/Cara-Website/static/media/f2.209743eb77f3524de15d.209743eb77f3524de15d.png",
+    "static/media/blogImg44.jpg": "/Cara-Website/static/media/blogImg44.b2463030f9835faaec0b.jpg",
+    "static/media/blogImg1.jpg": "/Cara-Website/static/media/blogImg1.cc35492048a747ea0eed.jpg",
+    "static/media/f4.png": "/Cara-Website/static/media/f4.ad9a7e8f300f1b06e476.ad9a7e8f300f1b06e476.png",
+    "static/media/f5.png": "/Cara-Website/static/media/f5.7390d944821d42b5d0c4.7390d944821d42b5d0c4.png",
+    "static/media/f1.png": "/Cara-Website/static/media/f1.2570c5d9b63b8b82eee2.2570c5d9b63b8b82eee2.png",
+    "static/media/f3.png": "/Cara-Website/static/media/f3.c2387adbe683a4d5463e.c2387adbe683a4d5463e.png",
+    "static/media/f6.png": "/Cara-Website/static/media/f6.411f54a7c986bd31bc8e.411f54a7c986bd31bc8e.png",
+    "static/media/banner.jpg": "/Cara-Website/static/media/banner.143e491242b908d2e1fa.jpg",
+    "static/media/pay.png": "/Cara-Website/static/media/pay.47ad3e696f50516da1b3.47ad3e696f50516da1b3.png",
+    "index.html": "/Cara-Website/index.html",
+    "main.110dc122.css.map": "/Cara-Website/static/css/main.110dc122.css.map",
+    "main.d692717f.js.map": "/Cara-Website/static/js/main.d692717f.js.map",
+    "453.d362fc7d.chunk.js.map": "/Cara-Website/static/js/453.d362fc7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.110dc122.css",
+    "static/js/main.d692717f.js"
+  ]
+}
