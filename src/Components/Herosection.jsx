@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import '../Css/herosection.css';
+import { NavLink } from 'react-router-dom';
 
 function Herosection() {
     return (
@@ -14,8 +15,8 @@ function Herosection() {
                                 Super value deals <br />
                                 <span className="text-primary">On all products</span>
                             </h1>
-                            <p className="text-secondary fs-5 fw-light mb-3">Save more with coupons & up to 70% off!</p>
-                            <Button className="shop-now-btn" href='/shop'>Shop Now</Button>
+                            <p className="text-secondary fs-5 fw-light mb-4">Save more with coupons & up to 70% off!</p>
+                            <NavLink className="shop-now-btn px-4 py-3" to='/shop'>Shop Now</NavLink>
                         </Col>
                     </Row>
                 </Container>
