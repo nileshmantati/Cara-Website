@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useCart } from '../Context/CartContext';
 import { useParams } from 'react-router-dom';
 import axios from "axios";
 import { Container } from "react-bootstrap";
@@ -13,6 +14,7 @@ const Productdetails = () => {
     const { id } = useParams();
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(false);
+    const { addToCart } = useCart();
 
     useEffect(() => {
         setLoading(true);
@@ -52,7 +54,7 @@ const Productdetails = () => {
                             <p className="fs-5"><strong className="fw-medium">Brand:</strong> {product.brand}</p>
                             <p className="fs-5"><strong className="fw-medium">Category:</strong> {product.category}</p>
                             <p className="fs-5"><strong className="fw-medium">Rating:</strong> {product.rating} ⭐</p>
-                            <button className="btn py-2 px-4 fs-6">Add to Cart</button>
+                            <button className="btn py-2 px-4 fs-6" onClick={() => addToCart(product)}>Add to Cart</button>
                         </div>
                     </div>
                 </Container>

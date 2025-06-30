@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Col, Card, Button } from 'react-bootstrap';
+import { useCart } from '../Context/CartContext';
 import { BsCart3 } from 'react-icons/bs';
-
 import axios from "axios";
 import '../Css/FeaturedProducts.css';
 import { Link } from "react-router-dom";
@@ -12,6 +12,8 @@ function ShopProducts() {
     const [search, setSearch] = useState("");
     const [category, setCategory] = useState("All Products");
     const [sort, setSort] = useState("");
+    const { addToCart } = useCart();
+
     useEffect(() => {
         axios.get("https://dummyjson.com/products?limit=100").then((res) => {
             setProducts(res.data.products);
@@ -126,7 +128,7 @@ function ShopProducts() {
                                             <h5 className="text-success fw-bold">₹{item.price}</h5>
                                         </Card.Body>
                                         <div className="position-absolute bottom-0 end-0 m-3">
-                                            <Button className="rounded-circle border-0">
+                                            <Button className="rounded-circle border-0" onClick={() => addToCart(item)}>
                                                 <BsCart3 color="#2e856e" />
                                             </Button>
                                         </div>

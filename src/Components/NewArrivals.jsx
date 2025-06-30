@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useCart } from '../Context/CartContext';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import axios from 'axios';
@@ -8,6 +9,8 @@ import '../Css/FeaturedProducts.css';
 
 const NewArrivals = () => {
     const [products, setProducts] = useState([]);
+    const { addToCart } = useCart();
+
     useEffect(() => {
         // setLoading(true);
         axios.get(`https://dummyjson.com/products/category/mens-shirts?limit=4`)
@@ -50,7 +53,7 @@ const NewArrivals = () => {
                                     <h5 className="text-success fw-bold">₹{item.price}</h5>
                                 </Card.Body>
                                 <div className="position-absolute bottom-0 end-0 m-3">
-                                    <Button className="rounded-circle border-0">
+                                    <Button className="rounded-circle border-0" onClick={() => addToCart(item)}>
                                         <BsCart3 color="#2e856e" />
                                     </Button>
                                 </div>
