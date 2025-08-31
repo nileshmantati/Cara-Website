@@ -8,10 +8,14 @@ export const CartProvider = ({ children }) => {
         const stored = localStorage.getItem('cart');
         return stored ? JSON.parse(stored) : [];
     });
-
     useEffect(() => {
         localStorage.setItem('cart', JSON.stringify(cart));
     }, [cart]);
+    // console.log(cart[1]?.id);
+    // useEffect(() => {
+    //     const StoreCart = cart.map(({ id, qty }) => ({ id, qty }));
+    //     localStorage.setItem('cartname', JSON.stringify(StoreCart));
+    // }, [cart]);
 
     const addToCart = (product) => {
         setCart((prev) => {
